@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javaScript</title>
+    <style>
+      div {
+        text-align: center;
+        background-color: rgb(143, 125, 54);
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .child1 {
+        background-color: rgb(0, 247, 255);
+      }
+      .child2 {
+        background-color: rgb(223, 7, 7);
+      }
+      .child3 {
+        background-color: rgb(200, 255, 0);
+      }
+      .child4 {
+        background-color: rgb(25, 0, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="par">
+      <div class="onsid child1">1</div>
+      <div class="onsid child2">2</div>
+      <div class="onsid child3">3</div>
+      <div class="onsid child4">4</div>
+    </div>
+    <script src="page.js"></script>
+  </body>
+</html>
