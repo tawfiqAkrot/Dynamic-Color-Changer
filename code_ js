@@ -1,0 +1,14 @@
+let elements = document.querySelectorAll(".onsid");
+let parentElement = document.querySelector(".par");
+
+elements.forEach(
+  (element) =>
+    (element.onclick = function () {
+      // إزالة الكلاسات السابقة (اختياري)
+      parentElement.className = "par";
+
+      // إضافة الكلاس الجديد
+      let lastClass = this.classList.item(this.classList.length - 1);
+      parentElement.classList.add(lastClass);
+    })
+);
